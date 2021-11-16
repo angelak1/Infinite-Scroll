@@ -13,6 +13,18 @@
 		78FA68D426CED1CD00A8A818 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68BF26CED1C900A8A818 /* ContentView.swift */; };
 		78FA68D526CED1CD00A8A818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FA68C026CED1CD00A8A818 /* Assets.xcassets */; };
 		78FA68D626CED1CD00A8A818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78FA68C026CED1CD00A8A818 /* Assets.xcassets */; };
+		78FA68E026CED80900A8A818 /* ArtPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68DF26CED80900A8A818 /* ArtPiece.swift */; };
+		78FA68E126CED80A00A8A818 /* ArtPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68DF26CED80900A8A818 /* ArtPiece.swift */; };
+		78FA68E326CEDF0F00A8A818 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E226CEDF0F00A8A818 /* Service.swift */; };
+		78FA68E426CEDF0F00A8A818 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E226CEDF0F00A8A818 /* Service.swift */; };
+		78FA68EA26D0108D00A8A818 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E626D0108D00A8A818 /* ImageLoader.swift */; };
+		78FA68EB26D0108D00A8A818 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E626D0108D00A8A818 /* ImageLoader.swift */; };
+		78FA68EC26D0108D00A8A818 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E726D0108D00A8A818 /* AsyncImage.swift */; };
+		78FA68ED26D0108D00A8A818 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E726D0108D00A8A818 /* AsyncImage.swift */; };
+		78FA68EE26D0108D00A8A818 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E826D0108D00A8A818 /* EnvironmentValues+ImageCache.swift */; };
+		78FA68EF26D0108D00A8A818 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E826D0108D00A8A818 /* EnvironmentValues+ImageCache.swift */; };
+		78FA68F026D0108D00A8A818 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E926D0108D00A8A818 /* ImageCache.swift */; };
+		78FA68F126D0108D00A8A818 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FA68E926D0108D00A8A818 /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,12 @@
 		78FA68CD26CED1CD00A8A818 /* Infinite Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinite Scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FA68CF26CED1CD00A8A818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78FA68D026CED1CD00A8A818 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		78FA68DF26CED80900A8A818 /* ArtPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtPiece.swift; sourceTree = "<group>"; };
+		78FA68E226CEDF0F00A8A818 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		78FA68E626D0108D00A8A818 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = ../../AsyncImage/AsyncImage/ImageLoader.swift; sourceTree = "<group>"; };
+		78FA68E726D0108D00A8A818 /* AsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AsyncImage.swift; path = ../../AsyncImage/AsyncImage/AsyncImage.swift; sourceTree = "<group>"; };
+		78FA68E826D0108D00A8A818 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "EnvironmentValues+ImageCache.swift"; path = "../../AsyncImage/AsyncImage/EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		78FA68E926D0108D00A8A818 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = ../../AsyncImage/AsyncImage/ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,7 @@
 		78FA68B826CED1C900A8A818 = {
 			isa = PBXGroup;
 			children = (
+				78FA68E526D0105300A8A818 /* AsyncImage */,
 				78FA68BD26CED1C900A8A818 /* Shared */,
 				78FA68C726CED1CD00A8A818 /* iOS */,
 				78FA68CE26CED1CD00A8A818 /* macOS */,
@@ -60,6 +79,8 @@
 				78FA68BE26CED1C900A8A818 /* Infinite_ScrollApp.swift */,
 				78FA68BF26CED1C900A8A818 /* ContentView.swift */,
 				78FA68C026CED1CD00A8A818 /* Assets.xcassets */,
+				78FA68DF26CED80900A8A818 /* ArtPiece.swift */,
+				78FA68E226CEDF0F00A8A818 /* Service.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -88,6 +109,17 @@
 				78FA68D026CED1CD00A8A818 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		78FA68E526D0105300A8A818 /* AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				78FA68E726D0108D00A8A818 /* AsyncImage.swift */,
+				78FA68E826D0108D00A8A818 /* EnvironmentValues+ImageCache.swift */,
+				78FA68E926D0108D00A8A818 /* ImageCache.swift */,
+				78FA68E626D0108D00A8A818 /* ImageLoader.swift */,
+			);
+			path = AsyncImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FA68E026CED80900A8A818 /* ArtPiece.swift in Sources */,
+				78FA68E326CEDF0F00A8A818 /* Service.swift in Sources */,
+				78FA68F026D0108D00A8A818 /* ImageCache.swift in Sources */,
+				78FA68EE26D0108D00A8A818 /* EnvironmentValues+ImageCache.swift in Sources */,
+				78FA68EA26D0108D00A8A818 /* ImageLoader.swift in Sources */,
 				78FA68D326CED1CD00A8A818 /* ContentView.swift in Sources */,
+				78FA68EC26D0108D00A8A818 /* AsyncImage.swift in Sources */,
 				78FA68D126CED1CD00A8A818 /* Infinite_ScrollApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78FA68E126CED80A00A8A818 /* ArtPiece.swift in Sources */,
+				78FA68E426CEDF0F00A8A818 /* Service.swift in Sources */,
+				78FA68F126D0108D00A8A818 /* ImageCache.swift in Sources */,
+				78FA68EF26D0108D00A8A818 /* EnvironmentValues+ImageCache.swift in Sources */,
+				78FA68EB26D0108D00A8A818 /* ImageLoader.swift in Sources */,
 				78FA68D426CED1CD00A8A818 /* ContentView.swift in Sources */,
+				78FA68ED26D0108D00A8A818 /* AsyncImage.swift in Sources */,
 				78FA68D226CED1CD00A8A818 /* Infinite_ScrollApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V34PH29FJ7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -342,6 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V34PH29FJ7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
